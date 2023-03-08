@@ -1,0 +1,20 @@
+{
+	"moduleFileExtensions": [
+		"js"
+	],
+
+	"moduleNameMapper": {
+		"@/(.*)": "<rootDir>/src/$1"
+	},
+
+	"transform": {
+		"^.+\\.js$": "babel-jest",
+		"^.+\\.vue$": "@vue/vue3-jest"
+	},
+
+	"transformIgnorePatterns": [],
+
+	"testRegex": "t/unit/.*\\.js",
+
+	"testEnvironment": "jsdom"
+}

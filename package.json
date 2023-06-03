@@ -13,13 +13,12 @@
 	"scripts": {
 		"prepare": "husky install",
 		"preview": "vite preview",
-		"build": "vite build",
+		"build": "npm run prod",
 		"dev": "npm run development",
 		"development": "npx vite",
 		"prod": "npm run production",
 		"production": "npx vite build",
-		"test:unit": "npx jest",
-		"test:watch_unit": "npx jest --watch"
+		"test:e2e": "npm run build && playwright test"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^17.3.0",

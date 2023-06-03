@@ -1,5 +1,5 @@
 <template>
-	<span>{{ message }}</span>
+	<p>{{ message }}</p>
 </template>
 
 <style lang="scss">
@@ -9,6 +9,6 @@
 <script setup lang="ts">
 import { ref } from "vue";
 
-const message = ref("Hello World!fdd");
+const message = ref("Hello World!");
 
 </script>

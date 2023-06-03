@@ -1,12 +1,12 @@
 {
-	"name": "web_template",
-	"version": "v0.4.4-web_template-dev",
-	"description": "This is a general web template repository of Kenneth Trecy Tobias. Its purpose is to be used for other templates/projects either by forking this repository, copying its files, or merging its history to other existing templates/projects.",
-	"homepage": "https://github.com/KennethTrecy/web_template",
+	"name": "demonstration_of_automated_proofreading_using_gramma",
+	"version": "0.1.0",
+	"description": "This is a demonstration of Kenneth Trecy Tobias on how to include `gramma` in CI",
+	"homepage": "https://github.com/KennethTrecy/demonstration_of_automated_proofreading_using_gramma",
 	"keywords": [
-		"front-end",
-		"web",
-		"template-repository"
+		"continuous-integration",
+		"grammar",
+		"demo"
 	],
 	"private": "true",
 	"license": "MIT",

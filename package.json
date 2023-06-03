@@ -34,6 +34,7 @@
 		"@vue/vue3-jest": "^29.2.2",
 		"babel-jest": "^29.3.1",
 		"changelogen": "^0.4.0",
+		"gramma": "^1.6.0",
 		"husky": "^8.0.0",
 		"jest": "^29.3.1",
 		"regenerator-runtime": "^0.13.9",

@@ -22,5 +22,16 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: 16.x
-    - run: npm install
+    - name: Install general dependencies
+      run: npm install
+    - name: Install dependencies to do E2E tests
+      run: npx playwright install --with-deps
+    - name: Install server to check grammar
+      run: npx gramma server install
+    - name: Identify the server before explicitly enabling it to check grammar
+      run: npx gramma server info
+    - name: Initiate server to check grammar
+      run: npx gramma server start
+    - name: Identify the server after explicitly enabling it to check grammar
+      run: npx gramma server info
     - run: npm run test:e2e

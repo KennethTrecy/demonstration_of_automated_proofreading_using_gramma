@@ -1,4 +1,4 @@
-name: Web Front-end Tests
+name: E2E Tests
 
 on:
   push: []
@@ -11,10 +11,11 @@ on:
     branches:
       - master
     paths:
+      - '.github/workflows/e2e.yml'
       - 'src/**'
 
 jobs:
-  web_front-end_tests:
+  initial_e2e_tests:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3

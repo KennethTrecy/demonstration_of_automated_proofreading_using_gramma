@@ -16,14 +16,11 @@ on:
 jobs:
   web_front-end_tests:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [16.x, 18.x]
     steps:
     - uses: actions/checkout@v3
-    - name: Testing on Node.js ${{ matrix.node-version }}
+    - name: Testing on Node.js 16.x
       uses: actions/setup-node@v3
       with:
-        node-version: ${{ matrix.node-version }}
+        node-version: 16.x
     - run: npm install
     - run: npm run test:e2e

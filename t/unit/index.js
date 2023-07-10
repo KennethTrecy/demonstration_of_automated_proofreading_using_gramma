@@ -10,9 +10,9 @@ it("can test", () => {
 		"props": {}
 	});
 
-	const span = container.querySelector("span");
+	const paragraph = container.querySelector("p");
 
-	expect(span.innerHTML).toContain("Hello World!");
+	expect(paragraph.innerHTML).toContain("Hello World!");
 
 	cleanup();
 });

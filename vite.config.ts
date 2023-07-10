@@ -20,6 +20,6 @@ export default defineConfig({
 		}
 	},
 	"test": {
-		"include": [ "t/**/*.js" ]
+		"include": [ "t/unit/*.js" ]
 	}
 });

@@ -11,7 +11,7 @@ This repository demonstrates a basic automated proofreading as explained in [my 
 ## Origin
 Some parts of the repository was based from [`vite`] branch of [Web Template].
 
-The template is specialize for front-end development.
+The template is specialized for front-end development.
 
 ## Usage
 

@@ -56,8 +56,8 @@ Coded by Kenneth Trecy Tobias.
 This personal project may contain references to trademarks, which are included in good faith. However, it is important to note that such references do not indicate any endorsement, affiliation, or sponsorship by the respective trademark holders unless explicitly stated.
 
 [my article]: https://kennethtrecy.pages.dev/articles/key_steps_to_add_gramma_for_improved_ci
-[`vite`]: https://github.com/KennethTrecy/demonstration_of_automated_proofreading_using_gramma/tree/vite
-[Web Template]: https://github.com/KennethTrecy/demonstration_of_automated_proofreading_using_gramma/
+[`vite`]: https://github.com/KennethTrecy/web_template/tree/vite
+[Web Template]: https://github.com/KennethTrecy/web_template/
 [MIT]: https://github.com/KennethTrecy/demonstration_of_automated_proofreading_using_gramma/blob/master/LICENSE
 [Node.js environment]: https://nodejs.org/en/
 [pnpm]: https://pnpm.io/installation
